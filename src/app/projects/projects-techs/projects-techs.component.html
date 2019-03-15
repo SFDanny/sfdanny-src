@@ -1,0 +1,17 @@
+<div id="projects-techs">
+  <h1 class="text-dark">Techinal Specs</h1>
+  <hr>
+  <div class="projects-techs-group card" *ngFor="let tech of techs">
+    <div class="card-header text-secondary">
+      {{tech.groupName}}
+    </div>
+    <div class="card-body">
+        <ul class="list-group list-group-flush">
+            <li class="projects-techs-group-items list-group-item list-group-flush" *ngFor="let item of appConfigsService.getTechListFromIds(tech.items)">
+                <img class="projects-techs-group-item-icon" *ngIf="item?.icon" [src]="item.icon" />
+                <span class="projects-techs-group-item-name text-black-50">{{item.name}}</span>
+            </li>
+          </ul>
+    </div>
+  </div>
+</div>

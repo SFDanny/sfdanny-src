@@ -1,0 +1,13 @@
+@import '~src/variables';
+
+:host {    
+    #projects-gallery {
+        width:100%;
+        background: #ffffff;
+        padding: 15px;
+        >ngx-gallery{
+            width:100% !important;
+            max-width:100%;
+        }
+    }
+}

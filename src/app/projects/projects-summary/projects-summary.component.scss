@@ -1,0 +1,14 @@
+@import '~src/variables';
+
+:host {    
+    #projects-summary {
+        width:100%;
+        padding: 15px;
+        background: #ffffff;
+        >.projects-summary-item{
+            > h1{
+            }
+        }
+        
+    }
+}

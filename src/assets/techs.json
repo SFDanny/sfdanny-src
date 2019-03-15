@@ -1,0 +1,66 @@
+{
+  "angularjs": {
+    "icon": "/assets/techs/icons8-angularjs-48.png",
+    "name": "AnguarJS"
+  },
+  "aws": {
+    "icon": "/assets/techs/icons-aws.png",
+    "name": "Amazon Web Services"
+  },
+  "boostrap": {
+    "icon": "/assets/techs/icons8-bootstrap-48.png",
+    "name": "Boostrap"
+  },
+  "cassandra": {
+    "icon": "/assets/techs/icons8-database-40.png",
+    "name": "Cassandra"
+  },
+  "css3": {
+    "icon": "/assets/techs/icons8-css3-48.png",
+    "name": "CSS3"
+  },
+  "d3": {
+    "icon": "/assets/techs/icons-d3.svg",
+    "name": "D3.js"
+  },
+  "drupal": {
+    "icon": "/assets/techs/icons8-drupal-48.png",
+    "name": "Drupal"
+  },
+  "html5": {
+    "icon": "/assets/techs/icons8-html-5-48.png",
+    "name": "HTML5"
+  },
+  "jquery": {
+    "icon": "/assets/techs/icons8-jquery-filled-50.png",
+    "name": "jQuery"
+  },
+  "mysql": {
+    "icon": "/assets/techs/icons-mysql.png",
+    "name": "MySQL"
+  },
+  "nodejs": {
+    "icon": "/assets/techs/icons8-nodejs-48.png",
+    "name": "Node.js & express"
+  },
+  "npm": {
+    "icon": "/assets/techs/icons8-npm-48.png",
+    "name": "NPM"
+  },
+  "phonegap": {
+    "icon": "/assets/techs/icons-cordova.png",
+    "name": "Phonegap & Cordova"
+  },
+  "php": {
+    "icon": "/assets/techs/icons-php.png",
+    "name": "PHP"
+  },
+  "rackspace": {
+    "icon": "/assets/techs/icons8-upload-to-cloud-64.png",
+    "name": "Rackspace"
+  },
+  "zend": {
+    "icon": "/assets/techs/icons-zend.png",
+    "name": "Zend Framework"
+  }
+}

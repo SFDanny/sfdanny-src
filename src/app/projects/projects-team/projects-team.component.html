@@ -1,0 +1,22 @@
+<div id="projects-teams">
+  <h1 class="text-dark">Team</h1>
+  <hr>
+  <div class="projects-teams-group card" *ngFor="let team of teams">
+    <div class="card-header text-secondary">
+      {{team.groupName}}
+    </div>
+    <div class="card-body">
+      <ul class="list-group list-group-flush">
+        <li class="projects-teams-member list-group-item list-group-flush" *ngFor="let member of appConfigsService.getMemberListFromIds(team.members)">
+          <div class="projects-teams-member-avatar" *ngIf="member.avatar">
+            <img class="projects-teams-group-member-avatar-image" [src]="member.avatar">
+          </div>
+          <div class="projects-teams-member-info d-flex flex-column">
+            <span class="projects-teams-member-name text-muted">{{member.name}}</span>
+            <span class="projects-teams-member-role text-black-50">{{Utils.getRoleByProjectId(member.roles, projectId)?.name}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+<ng-template #navList let-items="data" let-sub="sub">
+  <div class="nav-item" *ngFor="let item of items">
+    <div class="nav-label nav-link text-uppercase" *ngIf="!item.sub && !item.href">
+      <span class="nav-item-name">{{item.name}}</span>
+    </div>
+    <a class="nav-link" *ngIf="!item.sub && item.href" [attr.href]="item.href">
+      <i *ngIf="item.icon" class="nav-item-icon fa" [ngClass]="item.icon"></i>
+      <span class="nav-item-name">{{item.name}}</span>
+    </a>
+    <div class="nav-link d-flex justify-content-between align-items-center" *ngIf="item.sub" (click)="onCollapsed(item.id)"
+      [ngClass]="{ 'active': nav_collasped == item.id }" role="button">
+      <span class="nav-item-name">{{item.name}}</span>
+      <i class="nav-item-collapse fa fa-angle-right" [ngClass]="{ 'fa-rotate-90' : nav_collasped == item.id }"></i>
+    </div>
+    <ng-template *ngIf="item.sub && (nav_collasped == item.id)" [ngTemplateOutlet]="navList" [ngTemplateOutletContext]="{data:item.sub, sub: true}"></ng-template>
+  </div>
+</ng-template>
+<div id="drawmenu" class="d-flex flex-column">
+  <div class="drawmenu-content">
+    <div class="profile">
+      <div class="avatar">
+        <img />
+      </div>
+      <div class="username">{{'Danny Song'}}</div>
+    </div>
+    <div class="nav flex-column flex-nowrap align-items-stretch" role="tablist" aria-orientation="vertical">
+      <ng-template [ngTemplateOutlet]="navList" [ngTemplateOutletContext]="{ data:navs, sub:false }"></ng-template>
+    </div>
+  </div>
+  <div class="drawmenu-backdrop" (click)="onClose()"></div>
+</div>

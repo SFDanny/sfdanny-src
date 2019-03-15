@@ -1,0 +1,12 @@
+<div id="projects-summary">
+  <div class="projects-summary-item" *ngFor="let s of summary" [ngSwitch]="s.key">
+    <h1 class="text-dark" *ngSwitchCase="'h1'">{{s.value}}</h1>
+    <h2 class="text-secondary" *ngSwitchCase="'h2'">{{s.value}}</h2>
+    <h3 class="text-secondary" *ngSwitchCase="'h3'">{{s.value}}</h3>
+    <h4 class="text-secondary" *ngSwitchCase="'h4'">{{s.value}}</h4>
+    <h5 class="text-secondary" *ngSwitchCase="'h5'">{{s.value}}</h5>
+    <h6 class="text-secondary" *ngSwitchCase="'h6'">{{s.value}}</h6>
+    <hr *ngSwitchCase="'hr'">
+    <p class="text-black-50" *ngSwitchDefault>{{s.value}}</p>
+  </div>
+</div>

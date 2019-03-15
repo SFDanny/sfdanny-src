@@ -1,0 +1,83 @@
+{
+  "profile": {
+    "name": "Danny Song",
+    "occupation": "Senior Front End Engineer"
+  },
+  "navigations": [{
+      "id": "dashboard",
+      "name": "Dashboard",
+      "icon": "fa-dashboard",
+      "href": "/#/dashboard"
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "sub": [{
+          "name": "-- PLAYPHONE --"
+        },
+        {
+          "id": "playphone-loot",
+          "name": "Loot",
+          "href": "/#/projects/playphone-loot"
+        },
+        {
+          "id": "playphone-mspo",
+           "name": "MSPO",
+          "href": "/#/projects/playphone-mspo"
+        },
+        {
+          "name": "-- GUESTDNA --"
+        },
+        {
+          "id": "guestdna-smoothie-king",
+          "name": "Smoothie King",
+          "href": "/#/projects/guestdna-smoothie-king"
+        },
+        {
+          "id": "guestdna-shakeshack",
+          "name": "ShakeShack",
+          "href": "/#/projects/guestdna-shakeshack"
+        },
+        {
+          "name": "-- APPSMYTH --"
+        },
+        {
+          "id": "appsmyth-ngp",
+          "name": "NGP Portal",
+          "href": "/#/projects/appsmyth-ngp"
+        },
+        {
+          "name": "-- ORENGEO --"
+        },
+        {
+          "id": "orengeo-webstore",
+          "name": "WebStore",
+          "href": "/#/projects/orengeo-webstore"
+        },
+        {
+          "id": "orengeo-pos",
+          "name": "Orengeo POS",
+          "href": "/#/projects/orengeo-pos"
+        },
+        {
+          "id": "orengeo-payo",
+          "name": "Orengeo PayO",
+          "href": "/#/projects/orengeo-payo"
+        }
+      ]
+    },
+    {
+      "id": "playgrounds",
+      "name": "Playgrounds",
+      "sub": [{
+          "name": "ng-confetti",
+          "href": "/#/projects/ng-confetti"
+        },
+        {
+          "name": "MSPO",
+          "href": "/#/dashboard/playphone/mspo"
+        }
+      ]
+    }
+  ]
+}

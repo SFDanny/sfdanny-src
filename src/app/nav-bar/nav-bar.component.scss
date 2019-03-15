@@ -1,0 +1,20 @@
+@import '~src/variables';
+
+:host {
+    width: 100%;
+    padding: 10px;
+    background: $color-highlight;
+    
+
+    >.nav-menu {
+        background: transparent;
+        color: #ffffff;
+        border: none;
+        outline: none;
+        >.nav-menu-icon {
+            font-size: 20px;
+            padding: 10px;
+        }
+    }
+
+}

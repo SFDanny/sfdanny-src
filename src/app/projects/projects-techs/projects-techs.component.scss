@@ -1,0 +1,25 @@
+@import '~src/variables';
+
+:host {    
+    #projects-techs {
+        width:100%;
+        padding: 15px;
+        background: #ffffff;
+        .projects-techs-group{
+            margin-bottom: 15px;
+            .projects-techs-group-items{
+                >.projects-techs-group-item-icon{
+                    width: 48px;
+                    height: 48px;
+                    margin-right: 12px;
+                    -webkit-transform: translateZ(0);
+                    transform: translateZ(0);
+                    -webkit-transition-timing-function: ease-out;
+                    transition-timing-function: ease-out;
+                }
+                >.projects-techs-group-item-name{
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap.scss";
+
+$fa-font-path : '../node_modules/font-awesome/fonts';
+
+$color-text: #E9F1F7;
+$color-label: #A9BCD0;
+$color-title: #E7DFC6;
+$color-bold: #816C61;
+$color-warning: #F3D3C7;
+$color-error: #FA7268;
+$color-highlight: #3B98D8;
+$color-background: #131B23;
+$color-background-content: #f4f6f9;
+$color-background-active: #112A3B;
+
+$mobile-width: 576px;
+$tablet-width: 768px;
+$desktop-width: 992px;
+$desktop-large-width: 1200px;
+
+@mixin user-select($string: none) {
+    -webkit-user-select: $string;
+    -moz-user-select: $string;
+    -ms-user-select: $string;
+    user-select: $string;
+  }
+
+@mixin tablet {
+    @media (min-width: #{$tablet-width}) and (min-height:601px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop-width}) and (min-height:601px) {
+        @content;
+    }
+}
+
+@mixin desktop-lg {
+    @media (min-width: #{$desktop-large-width}) and (min-height:601px) {
+        @content;
+    }
+}
+
+@mixin landscape-layout {
+    @media (orientation: landscape) and (min-width:481px) and (max-height:600px) {
+        @content;
+    }
+}
+
+@mixin not-landscape-layout {
+    @media (orientation: portrait) {
+        @content;
+    }
+    @media (min-height:601px) {
+        @content;
+    }
+    @media (max-width:549px) {
+        @content;
+    }
+}
+

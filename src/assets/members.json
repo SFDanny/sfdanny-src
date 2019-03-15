@@ -1,0 +1,186 @@
+{
+  "danny_song": {
+    "is_admin": true,
+    "name": "Danny Song",
+    "roles": [{
+      "projectId": "current",
+      "name": "Senior Front End Engineer"
+    },
+    {
+      "projectId": "guestdna-smoothie-king",
+      "name": "Front End Engineer"
+    },
+    {
+      "projectId": "appsmyth-ngp",
+      "name": "Front End Engineer"
+    }],
+    "location": "Sunnyvale, CA USA",
+    "socials": []
+  },
+  "sam_sur": {
+    "name": "Sam Sur",
+    "roles": [{
+      "projectId": "current",
+      "name": "Senior Front End Engineer"
+    },
+    {
+      "projectId": "appsmyth-ngp",
+      "name": "CTO & Product Manager"
+    }],
+    "location": "Oakland, CA USA",
+    "socials": []
+  },
+  "holly_morris": {
+    "name": "Holly Morris",
+    "roles": [{
+      "projectId": "current",
+      "name": "Designer"
+    },
+    {
+      "projectId": "guestdna-smoothie-king",
+      "name": "Designer"
+    },
+    {
+      "projectId": "appsmyth-ngp",
+      "name": "Designer"
+    }],
+    "location": "Oakland, CA USA",
+    "socials": []
+  },
+  "sudeep_ravidran": {
+    "name": "Sudeep Ravidran",
+    "roles": [{
+      "projectId": "current",
+      "name": "Techinical Architect & Lead Software Engineer"
+    },
+    {
+      "projectId": "guestdna-smoothie-king",
+      "name": "Techinical Architect & Lead Software Engineer"
+    },
+    {
+      "projectId": "appsmyth-ngp",
+      "name": "Techinical Architect & Lead Software Engineer"
+    }],
+    "location": "Mumbai, India",
+    "socials": []
+  },
+  "sourabh_kaley": {
+    "name": "Sourabh Kaley",
+    "roles": [{
+      "projectId": "current",
+      "name": "Senior Software Engineer"
+    },
+    {
+      "projectId": "guestdna-smoothie-king",
+      "name": "Senior Software Engineer"
+    },
+    {
+      "projectId": "appsmyth-ngp",
+      "name": "Senior Software Engineer"
+    }],
+    "location": "Mumbai, India",
+    "socials": []
+  },
+  "ankit_khedekar": {
+    "name": "Ankit Khedekar",
+    "roles": [{
+      "projectId": "current",
+      "name": "Senior Software Engineer"
+    },
+    {
+      "projectId": "guestdna-smoothie-king",
+      "name": "Senior Software Engineer"
+    },
+    {
+      "projectId": "appsmyth-ngp",
+      "name": "Senior Software Engineer"
+    }],
+    "location": "Mumbai, India",
+    "socials": []
+  },
+  "swati_choudhari": {
+    "name": "Swati Choudhari",
+    "roles": [{
+      "projectId": "current",
+      "name": "Senior Software Engineer"
+    },
+    {
+      "projectId": "guestdna-smoothie-king",
+      "name": "Senior Software Engineer"
+    },
+    {
+      "projectId": "appsmyth-ngp",
+      "name": "Senior Software Engineer"
+    }],
+    "location": "Mumbai, India",
+    "socials": []
+  },
+  "ashish_pawar": {
+    "name": "Ashish Pawar",
+    "roles": [{
+      "projectId": "current",
+      "name": "Senior Software Engineer"
+    },
+    {
+      "projectId": "guestdna-smoothie-king",
+      "name": "Senior Software Engineer"
+    },
+    {
+      "projectId": "appsmyth-ngp",
+      "name": "Senior Software Engineer"
+    }],
+    "location": "Mumbai, India",
+    "socials": []
+  },
+  "adhiraj_sood": {
+    "name": "Adhiraj Sood",
+    "roles": [{
+      "projectId": "current",
+      "name": "Software Engineer"
+    },
+    {
+      "projectId": "guestdna-smoothie-king",
+      "name": "Software Engineer"
+    },
+    {
+      "projectId": "appsmyth-ngp",
+      "name": "Software Engineer"
+    }],
+    "location": "Mumbai, India",
+    "socials": []
+  },
+  "madanlal_arora": {
+    "name": "Madanlal Arora",
+    "roles": [{
+      "projectId": "current",
+      "name": "Software Engineer"
+    },
+    {
+      "projectId": "guestdna-smoothie-king",
+      "name": "Software Engineer"
+    },
+    {
+      "projectId": "appsmyth-ngp",
+      "name": "Software Engineer"
+    }],
+    "location": "Mumbai, India",
+    "socials": []
+  },
+  "shivani_demra_ahuja": {
+    "name": "Shivani Demra Ahuja",
+    "roles": [{
+      "projectId": "current",
+      "name": "Software Engineer"
+    },
+    {
+      "projectId": "guestdna-smoothie-king",
+      "name": "Software Engineer"
+    },
+    {
+      "projectId": "appsmyth-ngp",
+      "name": "Software Engineer"
+    }],
+    "location": "Mumbai, India",
+    "socials": []
+  }
+}

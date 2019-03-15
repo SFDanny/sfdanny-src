@@ -1,0 +1,34 @@
+@import '~src/variables';
+
+:host {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+    >.app-content {
+        position: relative;
+        height: 100%;
+
+        >.app-page {
+            position: relative;
+            height: 100%;
+            background: $color-background-content;
+            overflow: hidden;
+            overflow-y: auto;
+        }
+
+        &:not(.collapsed) {
+            @include tablet {
+                >app-nav-bar{
+                    padding-left: 240px;
+                }
+                >.app-page {
+                    padding-left: 240px;
+                }
+            }
+        }
+    }
+}

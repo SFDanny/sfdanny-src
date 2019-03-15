@@ -1,0 +1,14 @@
+<div id="projects-page" class="row">
+  <div class="col-12">
+    <app-projects-summary class="d-flex projects-page-block" [summary]="project.summary"></app-projects-summary>
+  </div>
+  <div class="col-12">
+    <app-projects-gallery class="d-flex projects-page-block" [gallery]="project.gallery"></app-projects-gallery>
+  </div>
+  <div class="col-12 col-md-6">
+    <app-projects-techs class="d-flex projects-page-block" [techs]="project.techs"></app-projects-techs>
+  </div>
+  <div class="col-12 col-md-6">
+    <app-projects-team class="d-flex projects-page-block" [projectId]="projectId" [teams]="project.teams"></app-projects-team>
+  </div>
+</div>

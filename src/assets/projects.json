@@ -1,0 +1,293 @@
+{
+  "playphone-loot": {
+    "summary": {
+      "h1": "LOOT",
+      "p": "LOOT is"
+    },
+    "techs": "",
+    "teams": "",
+    "gallery": []
+  },
+  "playphone-mspo": {
+    "summary": {
+      "h1": "MSPO",
+      "p": "MSPO is"
+    },
+    "techs": "",
+    "teams": "",
+    "gallery": []
+  },
+  "guestdna-smoothie-king": {
+    "summary": [{
+        "key": "h1",
+        "value": "Smoothie King Portal"
+      },
+      {
+        "key": "hr"
+      },
+      {
+        "key": "h3",
+        "value": "Marketing Portal / Apps"
+      },
+      {
+        "key": "p",
+        "value": "These are API consumers that enable management of loyalty programs & targeted campaigns for each partner brand. These apps also have Role Based access control. So, while the max privileges are defined at app level, the per user privileges are always a subset (dependent on a number of factors – more details further in the doc)."
+      }
+    ],
+    "techs": [{
+      "groupName": "Frontend",
+      "items": ["html5", "css3", "jquery", "boostrap", "d3"]
+    }, {
+      "groupName": "Backend",
+      "items": ["php", "zend", "mysql", "aws"]
+    }],
+    "teams": [{
+        "groupName": "Frontend",
+        "members": ["danny_song", "swati_choudhari"]
+      },
+      {
+        "groupName": "Backend",
+        "members": ["sudeep_ravidran", "sourabh_kaley", "ankit_khedekar", "swati_choudhari", "ashish_pawar", "adhiraj_sood", "madanlal_arora", "shivani_demra_ahuja"]
+      },
+      {
+        "groupName": "Product",
+        "members": ["holly_morris"]
+      }
+    ],
+    "gallery": [
+      "/assets/gallery/guestdna-smoothieking-1.jpg",
+      "/assets/gallery/guestdna-smoothieking-2.jpg",
+      "/assets/gallery/guestdna-smoothieking-3.jpg",
+      "/assets/gallery/guestdna-smoothieking-4.jpg",
+      "/assets/gallery/guestdna-smoothieking-5.jpg",
+      "/assets/gallery/guestdna-smoothieking-6.jpg",
+      "/assets/gallery/guestdna-smoothieking-7.jpg"
+    ]
+  },
+  "guestdna-shakeshack": {
+    "summary": [{
+        "key": "h1",
+        "value": "ShakeShack Ordering App"
+      },
+      {
+        "key": "hr"
+      },
+      {
+        "key": "p",
+        "value": "Ordering App is tablet app for employee to easily make orders and manage orders. It has some notification when order is created to end-user such as push notification, email, text message. This app is allowed to use by distance from their store."
+      },
+      {
+        "key": "p",
+        "value": "It’s a hybrid mobile app using HTML5 and cordova to package as Android application."
+      }
+    ],
+    "techs": [{
+      "groupName": "Frontend",
+      "items": ["html5", "css3", "angularjs", "boostrap", "phonegap"]
+    }, {
+      "groupName": "Backend",
+      "items": ["drupal", "mysql", "aws"]
+    }],
+    "teams": [{
+        "groupName": "Frontend",
+        "members": ["danny_song"]
+      },
+      {
+        "groupName": "Backend",
+        "members": ["jason_king"]
+      },
+      {
+        "groupName": "Products",
+        "members": ["holly_morris"]
+      }
+    ],
+    "gallery": [
+      "/assets/gallery/guestdna-shakeshack-1.jpg",
+      "/assets/gallery/guestdna-shakeshack-2.jpg",
+      "/assets/gallery/guestdna-shakeshack-3.jpg",
+      "/assets/gallery/guestdna-shakeshack-4.jpg",
+      "/assets/gallery/guestdna-shakeshack-5.jpg"
+    ]
+  },
+  "appsmyth-ngp": {
+    "summary": [{
+        "key": "h1",
+        "value": "NGP Portal"
+      },
+      {
+        "key": "hr"
+      },
+      {
+        "key": "h3",
+        "value": "Admin Portal"
+      },
+      {
+        "key": "p",
+        "value": "This allows Appsmyth team to active & manage Brands. Current implementation (incorrectly) also displays the functionality of a Marketing portal within Admin Portal. Hence the Admin Portal also has a demo brand associated with it."
+      },
+      {
+        "key": "h3",
+        "value": "Marketing Portal / Apps"
+      },
+      {
+        "key": "p",
+        "value": "These are API consumers that enable management of loyalty programs & targeted campaigns for each partner brand. These apps also have Role Based access control. So, while the max privileges are defined at app level, the per user privileges are always a subset (dependent on a number of factors – more details further in the doc)."
+      }
+    ],
+    "techs": [{
+      "groupName": "Frontend",
+      "items": ["html5", "css3", "angularjs", "boostrap", "jquery"]
+    }, {
+      "groupName": "Backend",
+      "items": ["nodejs", "npm", "cassandra", "rackspace"]
+    }],
+    "teams": [{
+        "groupName": "Frontend",
+        "members": ["danny_song", "swati_choudhari"]
+      },
+      {
+        "groupName": "Backend",
+        "members": ["sudeep_ravidran", "sourabh_kaley", "ankit_khedekar", "swati_choudhari", "ashish_pawar", "adhiraj_sood", "madanlal_arora", "shivani_demra_ahuja"]
+      },
+      {
+        "groupName": "Products",
+        "members": ["sam_sur", "holly_morris"]
+      }
+    ],
+    "gallery": [
+      "/assets/gallery/appsmyth-ngp-1.jpg",
+      "/assets/gallery/appsmyth-ngp-2.jpg",
+      "/assets/gallery/appsmyth-ngp-3.jpg",
+      "/assets/gallery/appsmyth-ngp-4.jpg",
+      "/assets/gallery/appsmyth-ngp-5.jpg"
+    ]
+  },
+  "orengeo-webstore": {
+    "summary": [{
+        "key": "h1",
+        "value": "Orengeo WebStore"
+      },
+      {
+        "key": "hr"
+      },
+      {
+        "key": "p",
+        "value": "Orengeo Webstore is a our quick and simple solution for people to build up online-shop without actual knowledge of coding."
+      },
+      {
+        "key": "h4",
+        "value": "Restaurant / Shopping mall Template"
+      },
+      {
+        "key": "p",
+        "value": "Features: Inventory Management / Categorization / Front Page Marquee / Lightbox Item detail / Feedback / Shopping Cart"
+      },
+      {
+        "key": "h4",
+        "value": "Blog Template"
+      },
+      {
+        "key": "p",
+        "value": "Features: Blog Post Archive / Comment System / Social Media Integration / Customization Tool"
+      },
+      {
+        "key": "h4",
+        "value": "Auction Template"
+      },
+      {
+        "key": "p",
+        "value": "Features: Auction-specific details, Automatic Thumbnail, Easy Auction Management"
+      }
+    ],
+    "techs": [{
+      "groupName": "Frontend",
+      "items": ["html5", "css3", "angularjs", "boostrap", "jquery", "jquery-ui"]
+    }, {
+      "groupName": "Backend",
+      "items": ["asp-net", "c#", "mysql"]
+    }],
+    "teams": [{
+        "groupName": "Frontend",
+        "members": ["danny_song","pochen_lin"]
+      },
+      {
+        "groupName": "Backend",
+        "members": ["joon_park"]
+      },
+      {
+        "groupName": "Products",
+        "members": ["viktor_zheng"]
+      }
+    ]
+  },
+  "orengeo-pos": {
+    "summary": [{
+        "key": "h1",
+        "value": "Orengeo POS (Cloud Point of Sale)"
+      },
+      {
+        "key": "hr"
+      },
+      {
+        "key": "h3",
+        "value": "POS for Win8 / WinRT / Android"
+      },
+      {
+        "key": "p",
+        "value": "This Window 8 Metro app and Android app is designed for our restaurant client to use as a POS(point and sales) system in operation. We provide all-in-one solution included 20” touchscreen device as register console, Tablets for waiter/waitress to make order, Website for online order, Report of sales history, Thermal printer, Cash drawer, and Credit card reader."
+      },
+      {
+        "key": "p",
+        "value": "Currently we have 30+ business partners using this system for daily operation and it’s free to use."
+      },
+      {
+        "key": "h3",
+        "value": "POS Revision 2.1"
+      },
+      {
+        "key": "p",
+        "value": "According to our customer’s feedback, we revise and reorganize our POS application."
+      },
+      {
+        "key": "h5",
+        "value": "New features highlight:"
+      },
+      {
+        "key": "p",
+        "value": "3 different modes, from simple to full functionality. Meet each owner’s need."
+      },
+      {
+        "key": "p",
+        "value": "Split bills and Tip adjustments"
+      },
+      {
+        "key": "p",
+        "value": "Food options and surcharge"
+      },
+      {
+        "key": "p",
+        "value": "Sales report"
+      }
+    ],
+    "techs": [{
+      "groupName": "Frontend",
+      "items": ["html5", "css3", "knockout", "jquery", "winjs", "winjsapp", "cordova"]
+    }, {
+      "groupName": "Backend",
+      "items": ["c#", "winjsapp"]
+    }],
+    "teams": [{
+        "groupName": "Frontend",
+        "members": ["danny_song","pochen_lin"]
+      },
+      {
+        "groupName": "Backend",
+        "members": ["joon_park"]
+      },
+      {
+        "groupName": "Products",
+        "members": ["viktor_zheng"]
+      }
+    ]
+  }
+}

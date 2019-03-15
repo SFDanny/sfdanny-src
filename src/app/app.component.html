@@ -1,0 +1,9 @@
+
+
+<div class="app-content d-flex flex-column" [ngClass]="{ 'collapsed': !appEventService.menu_collapsed }">
+    <app-drawmenu *ngIf="appEventService.menu_collapsed"></app-drawmenu>
+    <app-nav-bar></app-nav-bar>
+    <div class="app-page d-flex align-items-stretch">    
+        <router-outlet></router-outlet>
+    </div>
+</div>
